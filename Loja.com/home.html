@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h4>Seja bem-vindo</h4><!-- botar um código pra puxar o nome que a pessoa botou la no começo -->
+<fieldset><legend>Especificações</legend>
+    <form>
+      Escolha uma cor:<br><input type="color" name="cor"><br><br>
+      Escolha uma quantidade:<br><input type="number" value="0" min="1" max="100" step="1"><br><br>
+      Escolha um item (ou mais itens):<br>
+      <input type="checkbox" value="skate" name="item">Skate<br>
+      <input type="checkbox" value="oculosEscuro" name="item">Óculos escuros<br>
+      <input type="checkbox" value="oculosGrau" name="item">Óculos de grau<br>
+      <input type="checkbox" value="moto" name="item">Moto<br>
+      <input type="checkbox" value="carro" name="item">Carro<br>
+      <input type="checkbox" value="note" name="item">Notebook<br>
+      <input type="checkbox" value="book" name="item">Livro<br>
+      <input type="checkbox" value="bike" name="item">Bicicleta<br>
+      <input type="checkbox" value="peso" name="item">Peso de academia<br>
+      <input type="checkbox" value="cafe" name="item">Xícara de café<br><br>
+      Escolha o animal:<br>
+      <input type="radio" value="pingu" name="animal">Pinguin<br>
+      <input type="radio" value="cat" name="animal">Gato<br>
+      <input type="radio" value="dog" name="animal">Cachorro<br>
+      <input type="radio" value="duck" name="animal">Pato<br>
+      <input type="radio" value="sheep" name="animal">Ovelha<br>
+    </fieldset><br>
+  Observações<textarea name="obs" id="contar" cols="40" rows="5" maxlength="100" placeholder="No máximo 100 caracteres"></textarea>
+    </form>
+</body>
+
+</html>

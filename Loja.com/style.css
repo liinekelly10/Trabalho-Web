@@ -1,0 +1,17 @@
+body {
+    font-size: 15pt;
+    text-align: center;
+}
+div {
+    border-style: inset;
+    border-radius: 50px;
+    border-width: 5px;
+    border-color: red;
+    text-align: center;
+    -webkit-border-radius: 0px 30px 0px 30px;
+}
+canvas{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
